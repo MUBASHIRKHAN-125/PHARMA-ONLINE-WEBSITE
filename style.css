@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.text a{
+    text-decoration: none;
+    letter-spacing: .2em;
+    font-size: 22px;
+    color: #000;
+    font-weight: 700;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+    margin: 0px;
+    align-items: center;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover , .home a{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.headericon{
+    display: flex;
+    column-gap:20px;
+}
+.sec1{
+    display: flex; 
+    flex-direction:column;
+    justify-content: center; 
+    align-items: center; 
+    row-gap: 50px;
+    padding-bottom: 120px;
+    background-image: url("image/bc\ img.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.head p{
+    padding-top: 120px;
+    color: rgb(228, 96, 8);
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.head h1{
+    text-align: center;
+    font-weight: 700;
+    color: #c54109;
+    font-size: 3rem;
+}
+.but button{ 
+    padding: 8px 60px;
+}
+.sec2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.card1{
+    background-color: #1ad5d5;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius:4px;
+    color: white;
+}
+.card2{
+    background: #74d12b;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius:4px;
+    color: white;
+}
+.card3{
+    background-color: #ffc107;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius:4px;
+    color: white;
+}
+ .card1 h5 , .card2 h5 ,.card3 h5{
+    font-style: italic;
+    font-size: 2rem;
+}
+ .card1 p , .card2 p ,.card3 p{
+font-weight: bold;
+}
+ .card1 span , .card2 span ,.card3 span{
+font-weight: 300;
+}
+.sec3{
+    padding-top: 150px;
+}
+.sec3 p{
+    font-weight: 650;
+}
+.butsec3{
+    display: flex;
+    justify-content: center;
+}
+.butsec3 a {
+font-weight:600;
+}
+.carousel-item  img{
+width: 30%;
+}
