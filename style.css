@@ -146,6 +146,7 @@ font-weight:600;
 .sec5 h2{
     text-align: center;
     text-transform: uppercase;
+    padding-bottom: 45px;
 }
 .image img{
     border-radius: 50% !important;
