@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bowlby+One+SC&family=Cookie&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Gabarito:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sigmar+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: "Poppins", serif;
+}
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.text a{
+    text-decoration: none;
+    letter-spacing: .2em;
+    font-size: 22px;
+    color: #000;
+    font-weight: 700;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+    margin: 0px;
+    align-items: center;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover , .about a{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.headericon{
+    display: flex;
+    column-gap:20px;
+}
+.headericon a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease-out;
+    }
+    .headericon a:hover{
+        color: #51eaea;
+        transform: scale(1.05);
+    } 
+.sec1{
+    padding-top: 20px;
+    position: relative;
+   
+}
+.sec1::before{
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0px;
+z-index: -1;
+background-image: url("image/imgbc.jpg");
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.mainhead{
+    padding-top: 100px;
+    padding-bottom:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+.mainhead h1{
+    font-size: 70px;
+    font-family: "Agbalumo", serif;
+    font-weight:bold;
+}
+.mainhead p{
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.sec2{
+    padding-top: 90px;
+    padding-bottom: 50px;
+    font-family: "Rubik", serif;
+}
+.para p{
+    line-height: 1.7;
+    color: #6f7480;
+    font-weight: 300;
+    font-size: 16px;
+}
+.sec3{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background-color: #f8f9fa;
+}
+.padhead{
+    padding-top:40px;
+}
+.sec3 .para p{
+    line-height: 1.7;
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+    opacity: 0.5;
+    font-size: 16px;
+}
+.sec4{
+    padding-top: 70px;
+    padding-bottom: 60px;
+    background-color: #ffffff;
+}
+.sec4 .truck ,.fresh ,.quest{
+  font-size: 30px;
+  color: #51eaea !important;
+}
+.sec4 h3{
+    color: #25262a;
+    letter-spacing: .05em;
+    opacity: 0.9;
+    padding-top: 10px;
+}
+.sec4 p{
+    line-height: 1.7;
+    color: #8c92a0;
+}
+.sec5{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fff9ff;
+}
+.sec5 img{
+    width: 20% !important;
+    border-radius: 50%;
+}
+.sec5 .h2{
+    font-family: "Rubik";
+}
+.sec5 .para p{
+    color: #807979;
+    letter-spacing: .1em;
+    font-family:sans-serif ;
+}
+.managepara p{
+    color: #525764;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+footer a{
+    text-decoration: none;
+}
+.cont,.quick,.aboutfot{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.092rem;
+}
+footer i{
+    color: #51eaea;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease-out;
+}
+footer a:hover{
+   color:  #51eaea;
+   cursor: pointer;
+}
+.fotabout , .footcont, .footlinks{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.fotabout  p{
+    line-height: 1.7;
+    color: #8c92a0;
+}
+.foot11 div{
+    transition: all 0.3s ease-out;
+    line-height: 30px;
+} 
+.foot11 div:hover{
+    color: #51eaea;
+    cursor: pointer;
+} 
+.contactfot{
+  line-height: 34px;
+}
+.lastfot{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    color: #8c92a0;
+    text-align: center;
+}
+.lastfot i{
+    color: #8c92a0;
+}
+.lastfot span{
+    color: #51eaea;
+    font-weight: 600;
+} 
+footer{
+    background-color: #f3f3f3;;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+@media (max-width:576px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    header .text{
+        font-size: 2rem;
+    }
+    .headericon{
+        display: none;
+    }
+    nav ul li a{
+        font-size: 1.09rem;
+    }
+    .text h3 ,p{
+        font-weight: bold;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .sec5 .h2{
+        font-size: 2rem;
+    }
+    .cont,.quick , .aboutfot{
+        font-size: 2rem;
+    }
+    .parafot{
+        text-align: center;
+    }
+    .foot11{
+        text-align: center;
+    }
+}
+@media (max-width:390px) {
+    nav ul li a{
+        font-size: 1.3rem;
+    }
+    nav ul{
+        padding: 0px;
+    }
+    .sec3{
+        padding-top: 30px;
+    }
+    #abouth2{
+        text-align: center;
+    }
+    .dropdown{
+      display: none;
+    }
+    #pad{
+        padding-top: 30px;
+    }
+    #pad p{
+        padding-top: 30px;
+        text-align: center;
+    }
+    #padtop p{
+        padding-top: 30px;
+        text-align: center;
+    }
+    .sec4{
+        text-align: center;
+    }
+    .sec5{
+        text-align: center;
+    }
+    .sec5 h2{
+        padding-bottom: 30px;
+    }
+    #imgpara{
+        padding-top: 20px;
+    }
+    .para{
+        padding-top: 30px;
+    }
+    .abouth2{
+        margin: 0px;
+        padding: 0px;
+    }
+    #pad p{
+        padding: 0px;
+    }
+    .para {
+        padding: 0px;
+    }
+    .text h3{
+        font-size: 30px;
+        padding: 14px;
+    }
+    .mb-5{
+        margin: 0px;
+    }
+}
