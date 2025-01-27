@@ -225,6 +225,14 @@ footer{
         display: flex;
         flex-direction: column;
         row-gap: 20px;
+        position: static;
+    }
+    .sec3 h2{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .contactfot{
+        text-align: center;
     }
     header .text{
         font-size: 2rem;

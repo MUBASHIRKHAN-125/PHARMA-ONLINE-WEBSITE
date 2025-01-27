@@ -200,6 +200,19 @@ footer{
 @media (max-width:767px) {
     .form{
        flex-direction: column;
+       row-gap: 10px;
+    }
+}
+@media (max-width:567px) {
+    header{
+        position: static;
+    }
+    .sec3 h2{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .contactfot{
+        text-align: center;
     }
 }
 @media (max-width:390px) {
