@@ -26,7 +26,6 @@ const Messagesend = () => {
      emailjs.send("service_e4j4fue" , "template_tf36zko" , userDetail)
 .then((response) => {
     alert("ORDER COMPLETE YOUR ITEM 24 HOURS DELEVER");
-         console.log(response);
       window.location.href="index.html";
 })
 .catch((error) => {

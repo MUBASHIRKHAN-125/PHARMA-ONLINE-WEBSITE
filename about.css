@@ -65,11 +65,7 @@ width: 100%;
 height: 100%;
 top: 0px;
 z-index: -1;
-background-image: url("image/imgbc.jpg");
-background-attachment: fixed;
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+background: url("image/imgbc.jpg")center center / cover no-repeat fixed;
 }
 .mainhead{
     padding-top: 100px;
