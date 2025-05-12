@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bowlby+One+SC&family=Cookie&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Gabarito:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sigmar+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-*{
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+
+body {
     overflow-x: hidden;
     font-family: "Poppins", serif;
 }
-header{
+
+header {
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -18,185 +21,234 @@ header{
     top: 0px;
     z-index: 10;
 }
-.text a{
+
+.text a {
     text-decoration: none;
     letter-spacing: .2em;
     font-size: 22px;
     color: #000;
     font-weight: 700;
 }
-nav ul{
+
+nav ul {
     display: flex;
     list-style: none;
     column-gap: 30px;
     margin: 0px;
     align-items: center;
 }
-li a{
+
+li a {
     text-decoration: none;
     color: black;
 }
-li a:hover , .about a{
+
+li a:hover,
+.about a {
     text-decoration: underline;
     text-decoration-thickness: 2px;
 }
-.headericon{
+
+.headericon {
     display: flex;
-    column-gap:20px;
+    column-gap: 20px;
 }
-.headericon a{
+
+.headericon a {
     text-decoration: none;
     color: black;
     transition: all 0.3s ease-out;
-    }
-    .headericon a:hover{
-        color: #51eaea;
-        transform: scale(1.05);
-    } 
-.sec1{
+}
+
+.headericon a:hover {
+    color: #51eaea;
+    transform: scale(1.05);
+}
+
+.sec1 {
     padding-top: 20px;
     position: relative;
-   
+
 }
-.sec1::before{
-content: "";
-position: absolute;
-width: 100%;
-height: 100%;
-top: 0px;
-z-index: -1;
-background: url("image/imgbc.jpg")center center / cover no-repeat fixed;
+
+.sec1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    z-index: -1;
+    background: url("image/imgbc.jpg")center center / cover no-repeat fixed;
 }
-.mainhead{
+
+.mainhead {
     padding-top: 100px;
-    padding-bottom:100px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     row-gap: 30px;
 }
-.mainhead h1{
+
+.mainhead h1 {
     font-size: 70px;
     font-family: "Agbalumo", serif;
-    font-weight:bold;
+    font-weight: bold;
 }
-.mainhead p{
+
+.mainhead p {
     font-size: 20px;
     line-height: 35px;
     text-align: center;
     padding-bottom: 50px;
 }
-.sec2{
+
+.sec2 {
     padding-top: 90px;
     padding-bottom: 50px;
     font-family: "Rubik", serif;
 }
-.para p{
+
+.para p {
     line-height: 1.7;
     color: #6f7480;
     font-weight: 300;
     font-size: 16px;
 }
-.sec3{
+
+.sec3 {
     padding-top: 80px;
     padding-bottom: 50px;
     background-color: #f8f9fa;
 }
-.padhead{
-    padding-top:40px;
+
+.padhead {
+    padding-top: 40px;
 }
-.sec3 .para p{
+
+.sec3 .para p {
     line-height: 1.7;
     color: rgb(0, 0, 0);
-    font-weight:bold;
+    font-weight: bold;
     opacity: 0.5;
     font-size: 16px;
 }
-.sec4{
+
+.sec4 {
     padding-top: 70px;
     padding-bottom: 60px;
     background-color: #ffffff;
 }
-.sec4 .truck ,.fresh ,.quest{
-  font-size: 30px;
-  color: #51eaea !important;
+
+.sec4 .truck,
+.fresh,
+.quest {
+    font-size: 30px;
+    color: #51eaea !important;
 }
-.sec4 h3{
+
+.sec4 h3 {
     color: #25262a;
     letter-spacing: .05em;
     opacity: 0.9;
     padding-top: 10px;
 }
-.sec4 p{
+
+.sec4 p {
     line-height: 1.7;
     color: #8c92a0;
 }
-.sec5{
+
+.sec5 {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #fff9ff;
 }
-.sec5 img{
+
+.sec5 img {
     width: 20% !important;
     border-radius: 50%;
 }
-.sec5 .h2{
+
+.sec5 .h2 {
     font-family: "Rubik";
 }
-.sec5 .para p{
+
+.sec5 .para p {
     color: #807979;
     letter-spacing: .1em;
-    font-family:sans-serif ;
+    font-family: sans-serif;
 }
-.managepara p{
+
+.managepara p {
     color: #525764;
 }
-footer{
+
+footer {
     display: flex;
     justify-content: space-around;
 }
-footer a{
+
+footer a {
     text-decoration: none;
 }
-.cont,.quick,.aboutfot{
+
+.cont,
+.quick,
+.aboutfot {
     text-align: center;
     font-weight: bold;
     font-size: 1.092rem;
 }
-footer i{
+
+footer i {
     color: #51eaea;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: black;
     transition: all 0.3s ease-out;
 }
-footer a:hover{
-   color:  #51eaea;
-   cursor: pointer;
+
+footer a:hover {
+    color: #51eaea;
+    cursor: pointer;
 }
-.fotabout , .footcont, .footlinks{
+
+.fotabout,
+.footcont,
+.footlinks {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
 }
-.fotabout  p{
+
+.fotabout p {
+    text-align: center;
     line-height: 1.7;
     color: #8c92a0;
+    width: 212px;
 }
-.foot11 div{
+
+.foot11 div {
     transition: all 0.3s ease-out;
     line-height: 30px;
-} 
-.foot11 div:hover{
+    text-align: center;
+}
+
+.foot11 div:hover {
     color: #51eaea;
     cursor: pointer;
-} 
-.contactfot{
-  line-height: 34px;
 }
-.lastfot{
+
+.contactfot {
+    line-height: 34px;
+    text-align: center;
+}
+
+.lastfot {
     display: flex;
     justify-content: center;
     padding-top: 90px;
@@ -204,121 +256,181 @@ footer a:hover{
     color: #8c92a0;
     text-align: center;
 }
-.lastfot i{
+
+.lastfot i {
     color: #8c92a0;
 }
-.lastfot span{
+
+.lastfot span {
     color: #51eaea;
     font-weight: 600;
-} 
-footer{
-    background-color: #f3f3f3;;
+}
+
+footer {
+    background-color: #f3f3f3;
+    ;
     padding-top: 60px;
     padding-bottom: 40px;
 }
+
+@media (max-width:770px) {
+    .sec4 h3 {
+        text-align: center;
+    }
+
+    .sec4 p {
+        text-align: center;
+    }
+
+    #spaceimg {
+        display: none;
+    }
+
+    #imgtext {
+        display: none;
+    }
+
+    #abouth2 {
+        text-align: center;
+    }
+
+}
+
 @media (max-width:576px) {
-    header{
+    header {
         display: flex;
         flex-direction: column;
         row-gap: 20px;
         position: static;
     }
-    .sec3 h2{
+
+    .sec3 h2 {
         font-weight: bold;
         font-size: 2rem;
     }
-    .contactfot{
+
+    .contactfot {
         text-align: center;
     }
-    header .text{
+
+    header .text {
         font-size: 2rem;
     }
-    .headericon{
+
+    .headericon {
         display: none;
     }
-    nav ul li a{
+
+    nav ul li a {
         font-size: 1.09rem;
     }
-    .text h3 ,p{
+
+    .text h3,
+    p {
         font-weight: bold;
     }
-    footer{
+
+    footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         row-gap: 20px;
     }
-    .sec5 .h2{
+
+    .sec5 .h2 {
         font-size: 2rem;
     }
-    .cont,.quick , .aboutfot{
+
+    .cont,
+    .quick,
+    .aboutfot {
         font-size: 2rem;
     }
-    .parafot{
+
+    .parafot {
         text-align: center;
     }
-    .foot11{
+
+    .foot11 {
         text-align: center;
     }
 }
+
 @media (max-width:390px) {
-    nav ul li a{
+    nav ul li a {
         font-size: 1.3rem;
     }
-    nav ul{
+
+    nav ul {
         padding: 0px;
     }
-    .sec3{
+
+    .sec3 {
         padding-top: 30px;
     }
-    #abouth2{
+
+    #abouth2 {
         text-align: center;
     }
-    .dropdown{
-      display: none;
+
+    .dropdown {
+        display: none;
     }
-    #pad{
+
+    #pad {
         padding-top: 30px;
     }
-    #pad p{
+
+    #pad p {
         padding-top: 30px;
         text-align: center;
     }
-    #padtop p{
+
+    #padtop p {
         padding-top: 30px;
         text-align: center;
     }
-    .sec4{
+
+    .sec4 {
         text-align: center;
     }
-    .sec5{
+
+    .sec5 {
         text-align: center;
     }
-    .sec5 h2{
+
+    .sec5 h2 {
         padding-bottom: 30px;
     }
-    #imgpara{
+
+    #imgpara {
         padding-top: 20px;
     }
-    .para{
+
+    .para {
         padding-top: 30px;
     }
-    .abouth2{
+
+    .abouth2 {
         margin: 0px;
         padding: 0px;
     }
-    #pad p{
+
+    #pad p {
         padding: 0px;
     }
+
     .para {
         padding: 0px;
     }
-    .text h3{
+
+    .text h3 {
         font-size: 30px;
         padding: 14px;
     }
-    .mb-5{
+
+    .mb-5 {
         margin: 0px;
     }
 }

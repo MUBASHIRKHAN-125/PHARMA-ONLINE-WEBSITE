@@ -302,7 +302,6 @@ footer {
     flex-wrap: wrap;
     row-gap: 20px;
     background-color: #f3f3f3;
-    ;
     padding-top: 60px;
     padding-bottom: 40px;
 }
@@ -362,7 +361,9 @@ footer a:hover {
 
 .contactfot {
     line-height: 34px;
+    text-align: center;
 }
+
 
 .lastfot {
     display: flex;
@@ -389,6 +390,10 @@ footer a:hover {
 @media (max-width:770px) {
     .card3 {
         flex-grow: 1;
+    }
+
+    .sec2 {
+        padding: 50px 30px;
     }
 }
 
@@ -419,11 +424,6 @@ footer a:hover {
         justify-content: center;
         align-items: center;
         row-gap: 20px;
-    }
-
-    .contactfot {
-        line-height: 34px;
-        text-align: center;
     }
 }
 
